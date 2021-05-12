@@ -523,13 +523,13 @@ footer {
     padding: 0 0 0 15px
 }
 
-#articles {
+#project {
     padding: 50px 15px;
     border-bottom: 1px solid #dcd9d9;
     text-align: center
 }
 
-#articles h2 {
+#project h2 {
     color: #374054;
     margin-bottom: 50px
 }
