@@ -1,31 +1,19 @@
 {
-  "name": "devportfolio-template",
-  "version": "1.2.2",
-  "description": "",
-  "main": "js/scripts.js",
+  "name": "cv-template",
+  "version": "0.0.0",
   "scripts": {
-    "watch": "gulp watch"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "deploy": "npx push-dir --dir=dist --branch=gh-pages"
   },
-  "keywords": [
-    "portfolio",
-    "personal",
-    "website",
-    "tech",
-    "coding",
-    "dev"
-  ],
-  "author": "Ryan Fitzgerald",
-  "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-babel": "^8.0.0",
-    "gulp-plumber": "^1.2.1",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.2",
-    "gulp-wait": "0.0.2"
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.2",
+    "postcss": "^8.2.13",
+    "push-dir": "^0.4.1",
+    "tailwindcss": "^2.1.2",
+    "vite": "^2.2.3"
   }
 }
